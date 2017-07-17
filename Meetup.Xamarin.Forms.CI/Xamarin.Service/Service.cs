@@ -10,7 +10,7 @@ namespace Xamarin.Service
 {
     public class Service : IService
     {
-        private static string apiUrl = "https://api-xamarin-meetup.azurewebsites.net/api/";
+        private static string apiUrl = "https://api-xamarin-mup.azurewebsites.net/api/";
         private static string customerPath = "customer";
 
         public async Task<List<string>> GetCustomerAll()

@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/bin/Debug
+/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/obj
+/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI.Android/bin/Debug
+/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI/Meetup.Xamarin.Forms.CI.Android/obj
+/Meetup.Xamarin.Forms.CI/packages
+/Meetup.Xamarin.Forms.CI/Xamarin.Service/bin/Debug
+/Meetup.Xamarin.Forms.CI/Xamarin.Service/obj
+/Meetup.Xamarin.Forms.CI/Xamarin.WebApi/bin
+/Meetup.Xamarin.Forms.CI/Xamarin.WebApi/obj
+/Meetup.Xamarin.Forms.CI/.vs

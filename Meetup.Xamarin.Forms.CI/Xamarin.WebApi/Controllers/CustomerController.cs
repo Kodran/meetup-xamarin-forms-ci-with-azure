@@ -18,6 +18,7 @@ namespace Xamarin.WebApi.Controllers
                 "Guest 1",
                 "Guest 2",
                 "L. Frank",
+                "Robert O. Kern"
             };
             return Ok(customers);
         }

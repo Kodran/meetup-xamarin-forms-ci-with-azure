@@ -19,18 +19,34 @@ namespace Meetup.Xamarin.Forms.CI
         private async void Init()
         {
             var result = await CallWebApi();
-            
+
             var customerListView = new ListView();
             Device.BeginInvokeOnMainThread(() =>
             {
                 customerListView.ItemsSource = result;
-                CustomerWrapper.Children.Add(customerListView);                
+                CustomerWrapper.Children.Add(customerListView);
             });
         }
+
         public async Task<List<string>> CallWebApi()
         {
             var customers = await api.GetCustomerAll();
             return customers;
+        }
+
+        void OnButtonClicked(object sender, EventArgs args)
+        {
+            SetNewData();
+        }
+
+        private async void SetNewData()
+        {
+            var result = await CallWebApi();
+            var customerListView = new ListView();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                customerListView.ItemsSource = result;
+            });
         }
     }
 }

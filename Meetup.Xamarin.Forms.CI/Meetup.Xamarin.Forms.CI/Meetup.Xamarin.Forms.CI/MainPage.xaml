@@ -8,6 +8,11 @@
         <Label x:Name="Customers"
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+
+        <Button  x:Name="CallServiceBtn" Text="Call API"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            Clicked="OnButtonClicked" />
     </StackLayout>
 
 </ContentPage>
